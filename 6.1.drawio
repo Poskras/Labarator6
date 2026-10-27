@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Блок-схема ДЗ" id="MFabmmvRUAM2sk_Sj_TY">
-    <mxGraphModel dx="1030" dy="664" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1355" dy="874" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -17,7 +17,7 @@
           <mxGeometry height="110" width="220" x="440" y="330" as="geometry" />
         </mxCell>
         <mxCell id="3edbvJh8QYtXQFCplRIp-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Результат = 0" vertex="1">
-          <mxGeometry height="60" width="190" x="890" y="370" as="geometry" />
+          <mxGeometry height="60" width="190" x="970" y="355" as="geometry" />
         </mxCell>
         <mxCell id="3edbvJh8QYtXQFCplRIp-6" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Общее количество&#xa;минут не больше 720?" vertex="1">
           <mxGeometry height="110" width="220" x="440" y="500" as="geometry" />
@@ -26,7 +26,7 @@
           <mxGeometry height="70" width="250" x="90" y="520" as="geometry" />
         </mxCell>
         <mxCell id="3edbvJh8QYtXQFCplRIp-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Результат = 1440 −&#xa;общее количество минут" vertex="1">
-          <mxGeometry height="70" width="270" x="670" y="450" as="geometry" />
+          <mxGeometry height="70" width="270" x="750" y="460" as="geometry" />
         </mxCell>
         <mxCell id="3edbvJh8QYtXQFCplRIp-9" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" value="Вывести результат" vertex="1">
           <mxGeometry height="60" width="240" x="430" y="700" as="geometry" />
@@ -56,10 +56,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3edbvJh8QYtXQFCplRIp-18" edge="1" parent="1" source="3edbvJh8QYtXQFCplRIp-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;exitX=0.5;exitY=1;entryX=1;entryY=0.5;" target="3edbvJh8QYtXQFCplRIp-9">
-          <mxGeometry relative="1" as="geometry">
+          <mxGeometry relative="1" x="-0.0517" as="geometry">
             <Array as="points">
-              <mxPoint x="885" y="670" />
-              <mxPoint x="710" y="670" />
+              <mxPoint x="1065" y="750" />
+              <mxPoint x="646" y="750" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -72,12 +72,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="3edbvJh8QYtXQFCplRIp-20" edge="1" parent="1" source="3edbvJh8QYtXQFCplRIp-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;exitX=0.5;exitY=1;entryX=1;entryY=0.5;" target="3edbvJh8QYtXQFCplRIp-9">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="3edbvJh8QYtXQFCplRIp-20" edge="1" parent="1" source="3edbvJh8QYtXQFCplRIp-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;exitX=0.5;exitY=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" target="3edbvJh8QYtXQFCplRIp-9">
+          <mxGeometry relative="1" x="-0.0035" as="geometry">
             <Array as="points">
-              <mxPoint x="895" y="660" />
-              <mxPoint x="700" y="660" />
-              <mxPoint x="700" y="730" />
+              <mxPoint x="895" y="530" />
+              <mxPoint x="895" y="716.7" />
             </Array>
           </mxGeometry>
         </mxCell>
